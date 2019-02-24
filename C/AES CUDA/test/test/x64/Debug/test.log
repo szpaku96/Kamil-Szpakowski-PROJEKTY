@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\kamil\documents\visual studio 2015\Projects\test\test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "D:\VisualStudio\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\kamil\documents\visual studio 2015\Projects\test\test\kernel.cu" 
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(666): warning : variable "err" was set but never used
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(721): warning : returning pointer to local variable
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(705): warning : variable "err" was set but never used
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(666): warning : variable "err" was set but never used
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(721): warning : returning pointer to local variable
+C:/Users/kamil/documents/visual studio 2015/Projects/test/test/kernel.cu(705): warning : variable "err" was set but never used
+  kernel.cu
+c:\users\kamil\documents\visual studio 2015\projects\test\test\kernel.cu(721): warning C4172: returning address of local variable or temporary: sizeArray
+  test.vcxproj -> C:\Users\kamil\documents\visual studio 2015\Projects\test\x64\Debug\test.exe
+  test.vcxproj -> C:\Users\kamil\documents\visual studio 2015\Projects\test\x64\Debug\test.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\kamil\documents\visual studio 2015\Projects\test\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
